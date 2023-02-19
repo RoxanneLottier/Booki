@@ -1,18 +1,19 @@
-body {
+* {
     max-width: 1400px;
     font-family: 'Raleway', sans-serif;
     color:black;
     margin: 0;
     padding: 0;
 }
+body {
+   
+}
 
 .site-header {
    display: flex;
    justify-content: space-between;
-   align-items: center;
-   align-content: center;
    width: 100%;
-   height: 107px ;
+   height: 126px ;
 }
 
 .inner-header {
@@ -21,7 +22,7 @@ body {
     align-items: center;
     align-content: center;
     width: 100%;
-    height: 107px ;
+    height: 126px ;
     padding-right: 10px;
 }
 
@@ -33,30 +34,46 @@ body {
 }
 
 nav {
-    height: 19px;
+    height: 126px;
+    width: 292px;
     margin: 0;
+    padding-right: 42.5px;
 }
 
 nav ul {
+    display: flex;
+    justify-content: space-between;
     margin: 0;
-    padding: 0;
+    height: 126px;
+    width: 292px;
+    align-content: center;
+    align-items: center;
 }
 
 nav ul li {
-    display: inline;
-    padding-right: 67px;
+    display: inline-flex;
     font-weight: 400;
     font-size: 16px;
+    height: 126px;
+    margin: 0;
 }
 
 nav ul li a{
     text-decoration: none;
     color: black;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 126px;
+    padding-right: 24.5px;
+    padding-left: 24.5px ;
+    margin: 0;
 }
 
 nav ul li a:hover {
     color: #0065FC;
-    text-decoration: overline;
+    border-top-color: #0065FC;
+    border-top: 2px solid;
     font-weight: 500;
     font-size: 16px;
 }
