@@ -6,7 +6,7 @@
     padding: 0;
 }
 body {
-   
+    
 }
 
 .site-header {
@@ -79,9 +79,40 @@ nav ul li a:hover {
 }
 
 h2 {
-
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
 }
 
 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
 
+.section-filter {
+    margin-left: 55px;
+}
+
+.section-filter-header {
+    margin-bottom: 8px;
+}
+
+.filter-bar {
+    display: flex;
+}
+
+.location-image {
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    width: 50px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-location-dot {
+    width: 14px;
+    height: 18px;
 }
