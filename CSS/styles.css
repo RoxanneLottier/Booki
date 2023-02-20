@@ -84,7 +84,7 @@ h2 {
     line-height: 26px;
 }
 
-p {
+.section-filter-sub-title {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -123,7 +123,7 @@ h3 {
     font-size: 18px;
     line-height: 21px;
 }
-.search-title{
+.search-box {
     width:236px;
     height: 49px;
     display: flex;
@@ -131,6 +131,29 @@ h3 {
     padding-left: 17px;
     border: 1px solid #F2F2F2
 }
+
+.search-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    border: none;
+}
+
+.search-title::placeholder {
+    color: black;
+    opacity: 1; /* For Firefox */
+}
+/* change default grey text to black */
+
+.search-title:focus {
+    outline: none;
+}
+/* delete default bleu hilight */
+
+.search-title::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+/* delete default cancel button */
 
 .search-button {
     background-color: #0065FC;
@@ -141,4 +164,60 @@ h3 {
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
     width: 132px;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+    margin-top: 32px;
+    width: 914px;
+}
+
+.filter-list {
+    display: inline-flex;
+    margin-left: 32px;
+    width: 828px;
+    justify-content: space-between;
+}
+
+.button-filter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 20px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+}
+
+.button-image {
+    margin-right: 10px;
+}
+
+.fa-money-bill-wave {
+    color: #0065FC ;
+}
+
+.fa-person {
+    color: #0065FC ;
+}
+
+.fa-heart {
+    color: #0065FC ;
+}
+
+.fa-dog {
+    color: #0065FC ;
+}
+/* did not figure out a way to change the color together */
+
+.button-text {
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.button-filter:hover {
+    background-color: #DEEBFF;
 }
