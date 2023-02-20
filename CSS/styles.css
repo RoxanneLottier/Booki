@@ -84,7 +84,7 @@ h2 {
     line-height: 26px;
 }
 
-.section-filter-sub-title {
+.p-sub-title {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -195,22 +195,9 @@ h3 {
     margin-right: 10px;
 }
 
-.fa-money-bill-wave {
+.button-image i{
     color: #0065FC ;
 }
-
-.fa-person {
-    color: #0065FC ;
-}
-
-.fa-heart {
-    color: #0065FC ;
-}
-
-.fa-dog {
-    color: #0065FC ;
-}
-/* did not figure out a way to change the color together */
 
 .button-text {
     line-height: 20px;
@@ -220,4 +207,23 @@ h3 {
 
 .button-filter:hover {
     background-color: #DEEBFF;
+}
+
+.info-bar {
+    display: flex;
+    margin-top: 37px;
+    align-items: center;
+}
+
+.info-bar i {
+    color: #0065FC ;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    margin-right: 11px;
 }
