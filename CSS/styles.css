@@ -414,7 +414,7 @@ footer ul li {
     line-height: 2.5rem;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) and (min-width:768px){
     nav ul li a:hover {
         border-top-color: #ffffff00;
     }
@@ -537,6 +537,7 @@ footer ul li {
         grid-column: 1;
         grid-row: 2 /3;
         padding:2.8rem 2.1rem 4.7rem 2rem;
+        margin: 0;
         border-radius: 0;
     }
     
@@ -598,7 +599,7 @@ footer ul li {
 
     .filter-list {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin: 0;
         width: 100%;
         gap: 2%;
@@ -608,7 +609,8 @@ footer ul li {
        margin-bottom: 1.7rem;
        width: 37%;
        justify-content: flex-start;
-       font-size: 1.4rem;
+       font-size: 1.1rem;
+       padding: 1.3rem;
     }
 
     .info-bar{
@@ -617,10 +619,16 @@ footer ul li {
 
     .populaires-cards {
         gap: 1.1rem;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .populaires-card {
         height: 13.7rem;
+    }
+
+    article.populaires-card img {
+        width: 38%;
     }
 
     .hébergement-cards{
@@ -652,6 +660,22 @@ footer ul li {
 
     .activité-item img{
         height: 13.4rem;
+    }
+
+    .activité-item.activité1 img{
+        object-position:80% 20%;
+    }
+
+    .activité-item.activité2 img{
+        object-position:55% 45%;
+    }
+
+    .activité-item.activité3 img{
+        object-position:60% 30%;
+    }
+
+    .activité-item.activité4 img{
+        object-position:80% 20%;
     }
 
     footer {
