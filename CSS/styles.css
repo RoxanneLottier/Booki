@@ -3,10 +3,15 @@
     color:black;
     margin: 0;
     padding: 0;
-    max-width: 1400px;
 }
 
-html { font-size: 62.5%;}
+html { 
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 1400px;
+}
 
 header {
     display: flex;
@@ -67,8 +72,8 @@ nav ul li a:hover {
     grid-template-columns: 2fr 1fr;
     margin-left: 5.5rem;
     margin-right:5rem;
-    grid-column-gap: 4rem;
-    grid-row-gap: 3.9rem;
+    column-gap: 4rem;
+    row-gap: 3.9rem;
 }
 
 form {
@@ -134,7 +139,7 @@ form span {
     font-size: 1.8rem;
     padding-left: 1.7rem;
     border: 0.1rem solid #F2F2F2;
-    width:23.6rem;
+    width:25.3rem;
     height: 4.9rem;
     display: flex;
     align-items: center;
@@ -350,7 +355,7 @@ article.populaires-card img {
 }
 
 .activités-list {
-    height: 444.5px;
+    height: 44.5rem;
     display: inline-flex;
     gap: 4.3rem;
     margin-top: 1.85rem;
@@ -359,7 +364,7 @@ article.populaires-card img {
 
 .activité-item {
     border-radius: 20px;
-    height: 44.5rem;
+    height: 100%;
     width: 100%;
     background: #FFFFFF;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -417,16 +422,15 @@ footer ul li {
     .main-wrapper {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: ;
         margin: 0;
-        grid-column-gap: 0;
-        grid-row-gap: 3.9rem;
+        column-gap: 0;
+        row-gap: 3.9rem;
     }
 
     form {
         grid-column: 1;
         grid-row: 1 /2;
-        margin: 3.1rem 2.2rem 0rem 2rem;
+        margin: 0rem 0rem 0rem 7.2rem;
     }
     
     aside {
@@ -454,8 +458,15 @@ footer ul li {
     }
 
     .populaires-card {
-        width: 25.2rem;
+        width: 33.33%;
+    }
 
+    .activités-list {
+        height: 26.7rem;
+    }
+
+    .activité-item img {
+        height: 21.1rem;
     }
 
     footer {
@@ -511,7 +522,6 @@ footer ul li {
     .main-wrapper {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: ;
         margin: 0;
         grid-column-gap: 0;
         grid-row-gap: 3.9rem;
@@ -591,7 +601,6 @@ footer ul li {
         justify-content: space-between;
         margin: 0;
         width: 100%;
-        justify-content: ;
         gap: 2%;
     }
 
