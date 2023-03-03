@@ -517,6 +517,7 @@ footer ul li {
         color: #0065FC;
         border-bottom-color: #0065FC;
         border-bottom: 0.3rem solid;
+        border-top-color:#0065fc00;
     }
 
     .main-wrapper {
