@@ -351,7 +351,7 @@ article.populaires-card img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 1.6rem 2.2rem 1.2rem 1.5rem;
+    margin: 1.1rem 1.7rem 0.7rem 2rem;
 }
 
 .activités-list {
@@ -459,6 +459,18 @@ footer ul li {
 
     .populaires-card {
         width: 33.33%;
+    }
+
+    .populaires-card h3 {
+        font-size: 1.4rem;
+    }
+
+    .populaires-card p {
+        font-size: 1.3rem;
+    }
+
+    .text-star-rating-populaires{
+        margin: 0.7rem 1.3rem 0.7rem 1.5rem;
     }
 
     .activités-list {
@@ -645,6 +657,10 @@ footer ul li {
 
     main button {
         display: none;
+    }
+
+    .activités h2{
+        width: 30%;
     }
 
     .activités-list{
